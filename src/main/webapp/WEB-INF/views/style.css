@@ -1,0 +1,68 @@
+#header > * {
+ color: #000;
+}
+ 
+.company-name {
+ font-family: cursive;
+}
+ 
+.nav-item:hover .nav-link {
+ color: #a71e2a !important;
+}
+ 
+/*login form*/
+ 
+.global-container {
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #f5f5f5;
+}
+ 
+form {
+ padding-top: 10px;
+ font-size: 14px;
+ margin-top: 30px;
+}
+ 
+.card-title {
+ font-weight: 300;
+}
+ 
+.card-img-top {
+ max-height: 200px;
+ background-size: contain;
+}
+ 
+.btn {
+ font-size: 14px;
+}
+ 
+.login-form {
+ width: 330px;
+ margin: 20px;
+}
+ 
+.sign-up {
+ text-align: center;
+ padding: 20px 0 0;
+}
+ 
+/* Checkbox  */
+input[type="checkbox"][readonly] {
+  pointer-events: none;
+  opacity:0.7;
+}
+
+/* edit */
+.editTaskId{
+	display: none !important;
+}
+
+@media (max-width: 600px) {
+ h1 {
+   font-size: 25px;
+   font-weight: 100;
+ }
+}
